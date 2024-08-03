@@ -1,0 +1,237 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #1f1f1f;
+    color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+}
+
+header .logo {
+    float: left;
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+    display: inline-block;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .cta-button {
+    background: #ff5722;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+header .cta-button:hover {
+    background: #e64a19;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero .cta-button {
+    background: #ff5722;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero .cta-button:hover {
+    background: #e64a19;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Service Cards */
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-card {
+    background: #1f1f1f;
+    padding: 20px;
+    margin: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.service-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1em;
+    color: #cccccc;
+}
+
+/* Contact Form */
+form {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #333333;
+    border: none;
+    border-radius: 5px;
+    color: #e0e0e0;
+}
+
+form button {
+    background: #ff5722;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #e64a19;
+}
+
+/* Footer */
+footer {
+    background: #1f1f1f;
+    color: #cccccc;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+}
+
+footer a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .newsletter-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer .newsletter-form input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background: #333333;
+    color: #e0e0e0;
+}
+
+footer .newsletter-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background: #ff5722;
+    color: #ffffff;
+    transition: background 0.3s;
+}
+
+footer .newsletter-form button:hover {
+    background: #e64a19;
+}
+
+.social-media img {
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+}
+
+img.paketintag{
+  width: auto;
+  height: 500px;
+}
+
+img.stockbord{
+  width: auto;
+  height: 500px;
+}
+
+img.stockbordStill{
+  width: auto;
+  height: 500px;
+}
+
+img.valsverk{
+  width: auto;
+  height: 500px;
+}
