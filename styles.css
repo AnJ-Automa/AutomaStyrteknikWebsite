@@ -128,41 +128,47 @@ h2 {
     color: #cccccc;
 }
 
-/* Contact Form */
-form {
+.contact h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Contact infos */
+.contact-infos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact-info {
     background: #1f1f1f;
     padding: 20px;
+    margin: 20px;
+    width: 30%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-form label {
-    display: block;
+.contact-infoVD {
+    background: #c86910;
+    padding: 20px;
+    margin: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-info h3 {
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    background: #333333;
-    border: none;
-    border-radius: 5px;
-    color: #e0e0e0;
+.contact-info p {
+    font-size: 1em;
+    color: #cccccc;
 }
 
-form button {
-    background: #ff5722;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-form button:hover {
-    background: #e64a19;
-}
 
 /* Footer */
 footer {
@@ -235,3 +241,5 @@ img.valsverk{
   width: auto;
   height: 500px;
 }
+
+
