@@ -114,6 +114,7 @@ h2 {
     padding: 20px;
     margin: 20px;
     width: 30%;
+    min-width: 200px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -143,7 +144,7 @@ h2 {
 
 .contact-info {
     background: #1f1f1f;
-    padding: 5px;
+    padding: 20px;
     margin: 20px;
     width: 30%;
     border-radius: 10px;
@@ -152,7 +153,7 @@ h2 {
 
 .contact-infoVD {
     background: #c86910;
-    padding: 5px;
+    padding: 20px;
     margin: 20px;
     width: 30%;
     border-radius: 10px;
@@ -188,58 +189,42 @@ footer a:hover {
     text-decoration: underline;
 }
 
-footer .newsletter-form {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-footer .newsletter-form input {
-    padding: 10px;
-    width: 250px;
-    border: none;
-    border-radius: 5px 0 0 5px;
-    background: #333333;
-    color: #e0e0e0;
-}
-
-footer .newsletter-form button {
-    padding: 10px;
-    border: none;
-    border-radius: 0 5px 5px 0;
-    background: #ff5722;
-    color: #ffffff;
-    transition: background 0.3s;
-}
-
 footer .newsletter-form button:hover {
     background: #e64a19;
 }
 
-.social-media img {
-    width: 32px;
-    height: 32px;
-    margin: 0 10px;
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
 }
 
-img.paketintag{
-  width: auto;
-  height: 500px;
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f; /* Change this to your desired background color */
+    width: 400px; /* Fixed width */
+    height: 300px; /* Fixed height */
+    margin: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-img.stockbord{
-  width: auto;
-  height: 500px;
+.image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
-img.stockbordStill{
-  width: auto;
-  height: 500px;
+img.paketintag,
+img.stockbord,
+img.stockbordStill,
+img.valsverk {
+    max-width: 100%;
+    max-height: 100%;
 }
-
-img.valsverk{
-  width: auto;
-  height: 500px;
-}
-
 
